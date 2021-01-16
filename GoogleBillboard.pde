@@ -6,7 +6,6 @@ public void setup()
   for (int i = 0; i < e.length()-10; i++) {
     digits = e.substring(2+i, 12+i);
     double dNum = Double.parseDouble(digits);
-    // System.out.println(dNum); 
     if (isPrime(dNum)== true) {
       System.out.println(dNum+" is the answer.");
       break;
